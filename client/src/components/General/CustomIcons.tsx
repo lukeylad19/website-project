@@ -3,7 +3,7 @@ import YoutubeLogo from "./YoutubeLogo.svg";
 import TwitchLogo from "./TwitchLogo.svg";
 
 export const YoutubeIcon = () => (
-  <Link href="https://www.youtube.com/">
+  <Link href="https://www.youtube.com/channel/UCxsoqxS23DY5C0-51PGYRQg">
     <Icon>
       <img src={YoutubeLogo} height={25} width={24} alt="description" />
     </Icon>
@@ -11,7 +11,7 @@ export const YoutubeIcon = () => (
 );
 
 export const TwitchIcon = () => (
-  <Link href="https://www.twitch.tv/">
+  <Link href="https://www.twitch.tv/lukeylad">
     <Icon>
       <img src={TwitchLogo} height={25} width={24} alt="description" />
     </Icon>
