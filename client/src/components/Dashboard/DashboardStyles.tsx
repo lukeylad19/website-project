@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbar: {
     paddingRight: 24, // keep right padding when drawer closed
+    backgroundColor: "#006400",
   },
   toolbarIcon: {
     display: "flex",
@@ -39,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     paddingLeft: "70px",
+    fontFamily: "Impact",
   },
   drawerPaper: {
     position: "relative",
