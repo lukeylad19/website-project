@@ -1,6 +1,6 @@
 import produce from "immer";
 import { combineReducers } from "redux";
-import mainReducer from "./mainReducer";
+import mainReducer from "./MainReducer";
 
 const ApplicationReducer = combineReducers({
   main: mainReducer,
