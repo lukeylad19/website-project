@@ -15,7 +15,7 @@ const defaultState: DefaultStateI = {
   lastName: "Jones",
 };
 
-const mainReducer = (
+const MainReducer = (
   state: DefaultStateI = defaultState,
   action: MainDispatchTypes
 ): DefaultStateI => {
@@ -38,4 +38,4 @@ const mainReducer = (
   }
 };
 
-export default mainReducer;
+export default MainReducer;

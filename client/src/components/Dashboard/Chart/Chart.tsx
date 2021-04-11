@@ -8,7 +8,7 @@ import {
   Label,
   ResponsiveContainer,
 } from "recharts";
-import Title from "../Title/title";
+import Title from "../Title/Title";
 
 // Generate Sales Data
 const createData = (time: string, amount: number | undefined) => {
